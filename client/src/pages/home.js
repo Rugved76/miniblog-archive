@@ -1,6 +1,6 @@
 import "../App.css";
 import React, { useEffect, useState } from "react";
-import { useGetUserID } from "../hooks/useGetUserID";
+import { useGetUserID } from "../Hooks/useGetUserID";
 import axios from "axios";
 import { Link, useParams } from "react-router-dom";
 export const url = `http://localhost:3001`
@@ -34,7 +34,7 @@ export const Home = () => {
     useEffect(() => {
         fetchRecipes();
         fetchSavedRecipes();
-    },[]);
+    }, []);
 
     const saveRecipe = async (recipeID) => {
         try {

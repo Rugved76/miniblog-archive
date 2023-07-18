@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { url } from "./home";
+import { url } from "./Home";
 import { useEffect, useState } from "react";
 import axios from 'axios'
 import './recipepage.css'

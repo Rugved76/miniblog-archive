@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { useGetUserID } from "../hooks/useGetUserID";
+import { useGetUserID } from "../Hooks/useGetUserID";
 import { useNavigate } from "react-router-dom";
 import { useCookies } from "react-cookie";
-import { url } from "./home";
+import { url } from "./Home";
 
 export const CreateRecipe = () => {
   const userID = useGetUserID();

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { useGetUserID } from "../hooks/useGetUserID";
+import { useGetUserID } from "../Hooks/useGetUserID";
 import axios from "axios";
-import { url } from "./home";
+import { url } from "./Home";
 import { Link } from "react-router-dom";
 
 export const SavedRecipes = () => {
